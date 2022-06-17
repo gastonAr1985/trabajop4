@@ -1,17 +1,24 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+   <!-- <Formulario/>
+   <Cliente /> -->
+   <barra-nav/>
+   <router-view/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
 
+/* import Formulario from './componentes/Formulario.vue'
+import Cliente from './componentes/Cliente.vue' */
+import BarraNav from './componentes/BarraNav.vue'
 export default {
   name: 'App',
   components: {
-    HelloWorld
+   BarraNav
+   /* Formulario,
+   Cliente */
+   
   }
 }
 </script>
