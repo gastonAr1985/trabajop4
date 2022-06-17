@@ -9,7 +9,7 @@ Vue.use(VueRouter)
 export const router = new VueRouter({
     mode: 'history',
     routes: [
-        { path: '/', redirect:'/binding'},
+        { path: '/', redirect:'/Formulario'},
         { path: '/formulario', component: Formulario },
         { path: '/cliente', component: Cliente },
         
